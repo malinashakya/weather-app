@@ -6,6 +6,7 @@ function App() {
   const [location, setLocation] = useState("");
   //url taken from open weather
   //link ko city name ra api key afnai haleko
+  //units=imperial kinaki weather ko value arko ma aauna sakxa like celsius but yesbata chai fahrenheit ma nai convert gardinxa
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid=79542c63a5a2c2777d88607f2331829a`;
 
   const searchLocation = (event) => {
